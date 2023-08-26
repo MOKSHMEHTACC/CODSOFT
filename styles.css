@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.about {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.nav {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.title {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+
+.about h1 {
+    font-size: 45px;
+    padding-left: 20px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+}
+
+.about .p {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+
+.about h2 {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.about .btn {
+    width: 120px;
+    height: 40px;
+    background-color: rgba(51, 255, 0, 0.863);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 18px;
+    cursor: pointer;
+
+}
+
+.about .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.name {
+    color: rgba(255, 0, 55, 0.861);
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.details {
+    width: 600px;
+    float: left;
+    height: 70px;
+    margin-left: 200px;
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.liw {
+    color: rgb(207, 52, 189);
+}
+
+.link {
+    color: rgb(207, 52, 189);
+}
+
+ul li a:hover {
+    color: rgba(255, 0, 55, 0.861);
+}
+
+
+.login h2 {
+    width: 220px;
+    text-align: center;
+    font-size: 22px;
+    margin: 3px;
+    padding: 8px;
+    background-color: rgb(207, 52, 189);
+    border-radius: 10px;
+    color: black;
+}
+
+.login input {
+    height: 35px;
+    width: 230px;
+    background: transparent;
+    border-bottom: 1px solid rgb(207, 52, 189);
+    border-right: none;
+    border-left: none;
+    margin-top: 25px;
+    border-top: none;
+    color: white;
+}
+
+.login .btn {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.login .link {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.login input:focus {
+    outline: none;
+}
+
+.login .link a {
+    text-decoration: none;
+    color: rgba(51, 255, 0, 0.863);
+
+}
+
+.login .liw {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login .liw a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(51, 255, 0, 0.863);
+}
+
+
+::placeholder {
+    color: aliceblue;
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+.container {
+    width: 100%;
+    background-image: url(pexels-tom-fisk-12039738.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.login {
+    width: 250px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.559);
+    position: absolute;
+    top: 10px;
+    left: 870px;
+    padding: 25px;
+    border-radius: 5px;
+}
